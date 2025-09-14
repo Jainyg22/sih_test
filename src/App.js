@@ -1,25 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter'
+import DogCard from './DogCard'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    < >  
+      <Counter />
+      hello
+      <DogCard name="Bruno" src="https://hips.hearstapps.com/clv.h-cdn.co/assets/16/18/gettyimages-586890581.jpg?crop=0.668xw:1.00xh;0.219xw,0&resize=980:*" />
+    </>
   );
 }
-
+// testing for github line 
 export default App;
